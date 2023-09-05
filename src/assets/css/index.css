@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.full-screen {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.vertical-center {
+    display: table-cell; 
+    vertical-align: middle; 
+}
+
+.height100 {
+    height: 100%;
+}
+.width100 {
+    width: 100%;
+}
+
+.clear-margin-padding {
+    margin: 0;
+    padding: 0;
+}
+
+.align-right-block {
+    margin-left: auto;
+    display: block;
+}
+
+.clear-fiex::after {
+    content: '';
+    display: block;
+    clear: both;
+}
