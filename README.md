@@ -68,7 +68,7 @@ devServer: {
 在vue组件实例的data 中存放着每个与之对应用户的对象用来保存聊天记录，格式如下
 
 ```json
-onlineUsers: {
+{
     "小明": {
         "msg": [
             {
